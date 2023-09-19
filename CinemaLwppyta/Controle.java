@@ -73,6 +73,9 @@ public class Controle extends Ingressos implements Calculos, Opcoes {
 				System.out.println("(4) Sabado 12:40 e Domingo 20:00 | Sabado 17:20 | Domingo 15:20");
 				System.out.println("................................................................");
 				break;
+			default:
+				System.out.println(Cores.TEXT_RED_UNDERLINED+"Opção inválida."+Cores.TEXT_RESET);
+				break;
 			}
 		} else if (controCartaz != 1 && controCartaz != 0) {
 			System.out.println(Cores.TEXT_RED_UNDERLINED+"Opção inválida."+Cores.TEXT_RESET);
